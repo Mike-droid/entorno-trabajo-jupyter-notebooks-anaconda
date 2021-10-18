@@ -36,3 +36,7 @@ Luego, podemos por ejemplo hacer: `!cat drive/MyDrive/nombreArchivo.csv`
 Google Colab ya cuenta con algunos códigos a modo de ejemplo, los encontramos en la parte de la izquierda, en 'Scripts' o 'Fragmentos de código'.
 
 Para entrar a los atajos de teclado: `control shift p` y escribes 'Shortcuts' o 'Atajos de teclado'.
+
+### Utilizar Deepnote
+
+[Deepnote](https://deepnote.com/) es como Google Colab, sin embargo, este último trabaja a nivel de *archivo*, mientras que Deepnote trabaja a nivel de *proyecto*.
