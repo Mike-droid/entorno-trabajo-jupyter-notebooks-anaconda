@@ -47,3 +47,15 @@ Para entrar a los atajos de teclado: `control shift p` y escribes 'Shortcuts' o 
 - Los notebooks son una herramienta muy valiosa para toda científica de datos, ¿por qué? -> Las 3 respuestas son válidas.
 - Entre las ventajas de trabajar con notebooks en la nube se encuentran: Las 3 respuestas son válidas.
 - Hablando de notebooks, ¿qué quiere decir que una aplicación nos permita trabajar a nivel de archivo o a nivel de proyecto? -> El trabajo a nivel de archivo hace referencia a que un único notebook es la entrada a nuestro proyecto. El trabajo a nivel de proyecto indica que tenemos múltiples puntos de entrada al proyecto.
+
+## Configuración de VS Code
+
+### Instalar VS Code
+
+Puedes descargar VS Code [aquí](https://code.visualstudio.com/download).
+
+### Agregar extensiones para VS Code
+
+### Uso de VSCode notebooks
+
+En Python podemos usar `ctrl shift p -> sort imports`
