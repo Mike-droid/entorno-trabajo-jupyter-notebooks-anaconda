@@ -59,3 +59,21 @@ Puedes descargar VS Code [aquí](https://code.visualstudio.com/download).
 ### Uso de VSCode notebooks
 
 En Python podemos usar `ctrl shift p -> sort imports`
+
+## Quiz 2
+
+- VSCode te permite sincronizar tus extensiones utilizando una cuenta de Microsoft o Github, ¿para qué podría ayudarte esta característica? ->  Al conectarme desde un lugar de trabajo nuevo puedo tener las mismas configuraciones del editor de código con las extensiones que siempre utilizo en un solo paso.
+- ¿Las características "sin texto fromateado, detectar errores de sintaxis, resalta sintaxis y autocompletado" corresponden a un editor de código o a un IDE? -> Ambas.
+- Un editor de código puede llegar a ser tan bueno como un IDE, ¿por qué? -> Por las múltiples extensiones.
+
+## Entorno de desarrollo en Anaconda
+
+### ¿Qué son los ambientes virtuales?
+
+En la vida real, es normal que trabajes en distintos proyectos al mismo tiempo. Para trabajar en múltiples proyectos es necesario crear un entorno virtual.
+
+### Instalar Conda a tráves de la terminal
+
+Si en nuestra terminal tenemos 'py base' significa que ya tenemos Conda o Anaconda instalado.
+
+Podemos abrir notebooks con el comando `jyputer-notebook`
