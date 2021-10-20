@@ -89,3 +89,8 @@ Podemos abrir notebooks con el comando `jyputer-notebook`
 - Clonar un ambiente virtual: `create --name my_proyecto_mas_chido --copy --clone mi_proyecto_chido`
 
 [Conda cheat sheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
+
+### Conda: Eliminar ambientes y librerías
+
+- Eliminar libreria: `conda remove pandas`
+- Eliminar ambiente: `conda env remove --name my_proyecto_chido` **Nota:** el ambiente debe estar desactivado.
