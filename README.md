@@ -77,3 +77,15 @@ En la vida real, es normal que trabajes en distintos proyectos al mismo tiempo. 
 Si en nuestra terminal tenemos 'py base' significa que ya tenemos Conda o Anaconda instalado.
 
 Podemos abrir notebooks con el comando `jyputer-notebook`
+
+### Conda: crear y actualizar ambientes
+
+- Ver el listado de ambientes virtuales: `conda env list`
+- Crear ambientes virtuales: `conda --name my_proyecto_chido python=3.8 pandas`
+- Activar el ambiente virtual: `conda activate my_proyecto_chido`
+- Desactivar el ambiente virtual: `conda deactivate`
+- Actualizar el paquete del ambiente virtual: `conda update pandas`
+- Instalar paquetes en el ambiente virtual: `conda install numpy`
+- Clonar un ambiente virtual: `create --name my_proyecto_mas_chido --copy --clone mi_proyecto_chido`
+
+[Conda cheat sheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
