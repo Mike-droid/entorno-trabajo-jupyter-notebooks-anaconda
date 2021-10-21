@@ -129,3 +129,9 @@ Puedes crear varios ambientes virtuales por proyecto:
     - comunication.yml
 
 [Documentación oficial de Snakemake](https://snakemake.readthedocs.io/en/stable/)
+
+## Quiz 3
+
+- ¿Por qué deberías utilizar ambientes virtuales para tus proyectos?: Para manejar las dependencias de cada proyecto de forma independiente, sin importar qué otras dependencias tengan los otros proyectos.
+- Determina si la siguiente afirmación es verdadera o falsa: “dentro de VSCode puedes utilizar tus ambientes virtuales creados con Conda o cualquier sistema de ambientes de Python”: verdadero
+- Tienes activo el ambiente “inteligencia_artifical”, ¿cómo podrías eliminarlo?: `conda deactivate` `conda env remove --name inteligencia_artificial`
