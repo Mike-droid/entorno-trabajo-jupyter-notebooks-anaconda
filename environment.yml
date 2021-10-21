@@ -1,0 +1,8 @@
+name: proyectoCool
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas=1.2
+  - boltons
+prefix: /home/mike_angel_rm/anaconda3/envs/proyectoCool

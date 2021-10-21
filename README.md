@@ -94,3 +94,16 @@ Podemos abrir notebooks con el comando `jyputer-notebook`
 
 - Eliminar libreria: `conda remove pandas`
 - Eliminar ambiente: `conda env remove --name my_proyecto_chido` **Nota:** el ambiente debe estar desactivado.
+
+### Conda: comandos avanzados
+
+Si tenemos un error al momento de descargar paquetes de Anaconda, podemos visitar [su sitio web](https://anaconda.org/) para buscar con más detalle el nombre del paquete que estamos tratando de descargar.
+
+Por ejemplo, haciendo `conda install boltons` tendremos un error. Lo correcto es `conda install --channel conda-forge boltons`
+
+- Podemos ver las diferentes versiones de nuestro entorno virtual usando `conda list --revision` y cambiar entre distintas versiones (como en git).
+- Podemos exportar el ambiente con `conda env export` y otras personas podrán usarlo.
+- Usando `conda env export --no-builds` podemos exportar el ambiente solamente con las versiones de los paquetes que tenemos instalados.
+- Usando `conda env export --from-history` exportamos solo las dependencias que indicamos manualmente (es la mejor para trabajo en equipo).
+- Para exportarlo a un archivo hacemos `conda env export --from-history --file environment.yml`
+- Para usar este ambiente virtual hacemos `conda create --file environment.yml`
