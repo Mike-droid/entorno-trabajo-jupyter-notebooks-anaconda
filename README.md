@@ -107,3 +107,10 @@ Por ejemplo, haciendo `conda install boltons` tendremos un error. Lo correcto es
 - Usando `conda env export --from-history` exportamos solo las dependencias que indicamos manualmente (es la mejor para trabajo en equipo).
 - Para exportarlo a un archivo hacemos `conda env export --from-history --file environment.yml`
 - Para usar este ambiente virtual hacemos `conda create --file environment.yml`
+
+### Acelerar la creación de ambientes virtuales con Mamba
+
+[Documentación oficial de Mamba](https://mamba.readthedocs.io/en/latest/)
+
+- Descargamos mamba con `conda install --channel conda-forge mamba`
+- Creamos ambientes virtuales con `mamba env create --file environment.yml` (porque ya tenemos este archivo)
