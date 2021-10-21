@@ -114,3 +114,18 @@ Por ejemplo, haciendo `conda install boltons` tendremos un error. Lo correcto es
 
 - Descargamos mamba con `conda install --channel conda-forge mamba`
 - Creamos ambientes virtuales con `mamba env create --file environment.yml` (porque ya tenemos este archivo)
+
+### Bonus: Divide y vencerás
+
+Puedes crear varios ambientes virtuales por proyecto:
+
+- proyecto_1
+  - data
+  - models
+  - notebook
+  - envs
+    - external.yml
+    - model.yml
+    - comunication.yml
+
+[Documentación oficial de Snakemake](https://snakemake.readthedocs.io/en/stable/)
